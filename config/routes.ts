@@ -43,6 +43,17 @@
 		component: './TodoList',
 	},
 
+{
+  		path: '/doan-so',
+  		name: 'DoanSo',
+  		icon: 'SmileOutlined',
+  		component: './DoanSo',
+	},
+	{
+  path: "/quan-ly-hoc-tap",
+  name: "Quản lý học tập",
+  component: "./QuanLyHocTap",
+}
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
