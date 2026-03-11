@@ -53,7 +53,17 @@
   path: "/quan-ly-hoc-tap",
   name: "Quản lý học tập",
   component: "./QuanLyHocTap",
-}
+    },
+	{
+  path: "/oan-tu-ti",
+  name: "Oẳn tù tì",
+  component: "./OanTuTi",
+    },
+	{
+  path: "/ngan-hang-de-thi",
+  name: "Ngân hàng đề thi",
+  component: "./NganHangDeThi",
+    },
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
