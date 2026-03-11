@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   Button,
   Card,
@@ -481,13 +481,13 @@ const QuanLyHocTap = () => {
 
       {/* SUBJECT MODAL */}
       <Modal
-        title={editingSubject ? "Sửa môn học" : "Thêm môn học"}
-        open={subjectModalOpen}
-        onCancel={() => setSubjectModalOpen(false)}
-        onOk={submitSubject}
-        okText="Lưu"
-        cancelText="Hủy"
-      >
+  title={editingSubject ? "Sửa môn học" : "Thêm môn học"}
+  visible={subjectModalOpen}
+  onCancel={() => setSubjectModalOpen(false)}
+  onOk={submitSubject}
+  okText="Lưu"
+  cancelText="Hủy"
+>
         <Form form={subjectForm} layout="vertical">
           <Form.Item
             name="name"
@@ -525,7 +525,7 @@ const QuanLyHocTap = () => {
   cancelText="Hủy"
 >
   ...
-</Modal>
+</Modal>  
     </div>
   );
 };
