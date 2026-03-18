@@ -15,9 +15,6 @@
 			},
 		],
 	},
-
-	///////////////////////////////////
-	// DEFAULT MENU
 	{
 		path: '/dashboard',
 		name: 'Dashboard',
@@ -64,20 +61,11 @@
   name: "Ngân hàng đề thi",
   component: "./NganHangDeThi",
     },
-	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
-
+	{
+  path: "/dat-lich-dich-vu",
+  name: "Đặt lịch dịch vụ",
+  component: "./DatLichDichVu",
+    },
 	{
 		path: '/notification',
 		routes: [
