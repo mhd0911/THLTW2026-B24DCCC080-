@@ -104,4 +104,10 @@
 	{
 		component: './exception/404',
 	},
+	{
+  path: '/vanbang',
+  name: 'Văn bằng',
+  icon: 'ProfileOutlined',
+  component: './VanBang',
+    },
 ];
