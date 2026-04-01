@@ -52,11 +52,12 @@
     "not ie <= 10"
   ],
   "dependencies": {
+    "@ant-design/charts": "^2.6.7",
     "@ant-design/icons": "~4.5.0",
-    "@ant-design/pro-layout": "^7.22.7",
+    "@ant-design/pro-layout": "^7.20.0",
     "@monaco-editor/react": "^4.6.0",
     "@sentry/react": "^7.65.0",
-    "@tinymce/tinymce-react": "^4.2.0",
+    "@tinymce/tinymce-react": "^6.3.0",
     "@types/lodash.debounce": "^4.0.6",
     "@types/react-highlight-words": "^0.16.4",
     "@types/styled-components": "^5.1.26",
@@ -97,7 +98,7 @@
     "socket.io-client": "^4.5.3",
     "styled-components": "^5.3.6",
     "tinymce": "^8.3.2",
-    "umi": "^4.6.30",
+    "umi": "^4.0.7",
     "umi-serve": "~1.9.10",
     "xlsx": "^0.18.5"
   },

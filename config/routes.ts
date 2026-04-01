@@ -110,4 +110,28 @@
   icon: 'ProfileOutlined',
   component: './VanBang',
     },
+	{
+  path: '/clb',
+  name: 'Câu lạc bộ',
+  icon: 'TeamOutlined',
+  component: './CauLacBo',
+},
+{
+  path: '/don',
+  name: 'Đơn đăng ký',
+  icon: 'FormOutlined',
+  component: './DonDangKy',
+},
+{
+  path: '/thanhvien',
+  name: 'Thành viên',
+  icon: 'UserOutlined',
+  component: './ThanhVien',
+},
+{
+  path: '/baocao',
+  name: 'Báo cáo',
+  icon: 'BarChartOutlined',
+  component: './BaoCao',
+},
 ];
