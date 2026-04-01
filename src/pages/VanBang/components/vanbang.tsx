@@ -73,4 +73,4 @@ const VanBang = () => {
   );
 };
 
-export default VanBang;
+export default VanBang; 
