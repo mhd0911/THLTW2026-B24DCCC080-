@@ -134,4 +134,10 @@
   icon: 'BarChartOutlined',
   component: './BaoCao',
 },
+	{
+		path: '/th07',
+		name: 'Bài thực hành 07',
+		icon: 'HomeOutlined',
+		component: './TH07',
+	},
 ];
