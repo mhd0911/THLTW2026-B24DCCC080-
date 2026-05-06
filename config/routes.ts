@@ -134,10 +134,16 @@
   icon: 'BarChartOutlined',
   component: './BaoCao',
 },
-	{
-		path: '/th07',
-		name: 'Bài thực hành 07',
-		icon: 'HomeOutlined',
-		component: './TH07',
-	},
+{
+	path: '/th07',
+	name: 'Bài thực hành 07',
+	icon: 'HomeOutlined',
+	component: './TH07',
+},
+{
+  path: '/task-manager',
+  name: 'Task Manager',
+  icon: 'ProfileOutlined',
+  component: './TaskManager',
+},
 ];

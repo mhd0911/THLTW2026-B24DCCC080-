@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Typography, Tag, Card, Row, Col, Button, Divider } from 'antd';
 import { ArrowLeftOutlined, EyeOutlined, CalendarOutlined, UserOutlined } from '@ant-design/icons';
-import { useModel } from 'umi';
+import { useModel } from '@@/plugin-model/useModel';
 
 const { Title, Text } = Typography;
 
